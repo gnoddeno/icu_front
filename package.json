@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "concurrently \"cd .. && python manage.py runserver\" \"npm run dev\"",
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

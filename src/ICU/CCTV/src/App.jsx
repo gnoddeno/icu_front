@@ -24,7 +24,7 @@ function App() {
     formData.append('video', file);
 
     try {
-      const response = await fetch('http://3.38.98.125:5000/upload_video/', {  // Django 서버의 URL
+      const response = await fetch('http://43.200.5.110:5000/upload_video/', {  // Django 서버의 URL
         method: 'POST',
         body: formData,
       });
